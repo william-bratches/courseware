@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Exercises</title>
+  <style>
+    body {
+        background-image: linear-gradient(145deg, #D3E2EB, #DAEAF5);
+        width: 90%;
+        max-width: 1200px;
+        margin: 2em auto;
+        font: .9em/1.2 Arial, Helvetica, sans-serif;
+    }
+    .flex-item {
+        flex: 1;
+        padding: 10px;
+        background-color: rgb(207, 207, 207);
+        border: 2px solid rgb(48, 49, 94);
+    }
+    .special {
+        flex: 3;
+        background-color: #FF9E4A;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+</style>
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="flex-item">One</div>
+    <div class="flex-item">Two</div>
+    <div class="flex-item">Three</div>
+    <div class="flex-item">Four</div>
+    <div class="flex-item">Five</div>
+    <div class="flex-item">Six</div>
+    <div class="flex-item special">Seven</div>
+    <div class="flex-item">Eight</div>
+    <div class="flex-item">Nine</div>
+    <div class="flex-item">Ten</div>
+  </div>
+</body>
+</html>
