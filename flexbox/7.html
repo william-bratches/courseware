@@ -12,7 +12,11 @@
         font: .9em/1.2 Arial, Helvetica, sans-serif;
     }
     .flex-item {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
         flex: 0 1 200px;
+        width: 100px;
         height: 200px;
         padding: 10px;
         background-color: rgb(207, 207, 207);
@@ -22,9 +26,11 @@
         background-color: #FF9E4A;
     }
     .flex-container {
+        align-items: center;
+        justify-content: space-between;
         flex-wrap: wrap;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 </style>
   </style>
